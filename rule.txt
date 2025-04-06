@@ -1,0 +1,90 @@
+Projekt końcowy, polegający na stworzeniu strony internetowej o Twoim ulubionym uniwersum, to doskonała okazja do połączenia kreatywności, umiejętności technicznych i planowania. Oto szczegółowy opis, jak możesz podejść do tego projektu, aby stworzyć estetyczną, funkcjonalną i interesującą stronę internetową.
+
+1. Strona Główna (index.html)
+Strona główna jest wizytówką Twojej witryny, dlatego musi przyciągać uwagę, być estetyczna i intuicyjna. Oto, jak możesz ją zaplanować:
+
+Tytuł strony i baner: Tytuł strony (np. „Świat [Twojej Ulubionej Gry/Filmu/Anime]”) powinien być wyróżniony w nagłówku. Baner to duży obrazek lub grafika związana z tematyką uniwersum, który będzie widoczny na samej górze strony. Może to być np. scena z gry, filmowy plakat lub ilustracja postaci.
+
+Wprowadzenie: Krótkie, zwięzłe przywitanie, które wyjaśnia, o czym jest strona, np. „Witaj na stronie poświęconej mojemu ulubionemu uniwersum – [nazwa uniwersum]! W tej przestrzeni znajdziesz wszystkie informacje o fabule, bohaterach i ciekawostkach, które sprawiają, że to miejsce jest wyjątkowe.”
+
+Powód wyboru tematu: Kilka zdań o tym, dlaczego wybrałeś to uniwersum. Możesz opisać, co sprawia, że ta gra, film, bajka lub anime jest dla Ciebie szczególne i jakie emocje wywołuje.
+
+Menu nawigacyjne: Menu nawigacyjne powinno być widoczne i proste w obsłudze. Może zawierać odnośniki do innych podstron, takich jak „Fabuła i świat uniwersum”, „Postacie”, „Multimedia”, „Ciekawostki i opinie”. Pamiętaj, by linki były czytelne i dobrze uporządkowane.
+
+2. Fabuła i Świat Uniwersum
+W tej sekcji przedstawisz tło fabularne i opowiesz o świecie, w którym dzieje się akcja.
+
+Opis świata: Dokładnie opisz uniwersum — gdzie i kiedy ma miejsce akcja, jaki to świat (fantasy, sci-fi, post-apokaliptyczny, itp.). Możesz również opisać jego historię: jak doszło do wydarzeń, które są podstawą fabuły, jakie są główne konflikty i wątki.
+
+Mieszkańcy uniwersum: Przedstaw, kto zamieszkuje ten świat – czy są to ludzie, elfy, roboty, potwory, czy inne fantastyczne postacie. Może to być także wprowadzenie do różnych ras, frakcji lub narodów w uniwersum.
+
+Ciekawe fakty i tło fabularne: Zawiera informacje o najważniejszych wydarzeniach w historii świata lub ciekawostki na temat jego stworzenia (np. jak powstała gra lub kto stworzył film).
+
+Ilustracje: Wstaw 1-2 ilustracje lub zdjęcia, które będą przedstawiały kluczowe miejsca w uniwersum, np. miasto, w którym dzieje się akcja, lub jakiś charakterystyczny element świata.
+
+3. Postacie (Bohaterowie)
+W tej sekcji przedstawisz głównych bohaterów uniwersum. Każdy bohater powinien być odpowiednio opisany, by odwiedzający stronę poczuli, kim oni są.
+
+Opis postaci: Dla każdej postaci stwórz krótki opis, który zawiera:
+
+Wygląd (np. „Jest wysokim, młodym mężczyzną z jasnymi włosami i szafirowymi oczami.”)
+
+Charakter (np. „Zdecydowany, ale nieco zamknięty, zmaga się z własnymi demonami.”)
+
+Rola w historii (np. „Główny bohater, który stara się uratować świat przed zniszczeniem.”)
+
+Układ kart postaci (cards layout): Każda postać może mieć swoją osobną kartę z obrazkiem i krótkim opisem. Tego typu layout jest czytelny, estetyczny i łatwy do zaimplementowania w HTML i CSS.
+
+Zdjęcia postaci: Każda karta powinna zawierać zdjęcie lub grafikę danej postaci. Postaraj się dobrać grafiki o dobrej jakości, pasujące do ogólnej estetyki strony.
+
+4. Multimedia
+Sekcja ta powinna zawierać filmy, zdjęcia, prezentacje multimedialne, które wzbogacą stronę o elementy wizualne.
+
+Film (np. trailer, scena z filmu/gry): Osadź w tej sekcji film, np. trailer gry, anime lub filmu. Możesz użyć iframe, aby dodać film z YouTube’a. Pamiętaj, by dodać odpowiedni tytuł lub opis do filmu.
+
+Galeria zdjęć lub pokaz slajdów: Możesz dodać galerię zdjęć, która zaprezentuje różne elementy uniwersum, takie jak krajobrazy, postacie czy ważne momenty w historii. Jeśli masz więcej zdjęć, zrób pokaz slajdów.
+
+Podpisy do multimediów: Każde zdjęcie lub film powinny mieć podpisy lub opisy, które wyjaśnią, co przedstawiają i jak wpisują się w tematykę strony.
+
+5. Ciekawostki i Twoja Opinia
+Ostatnia sekcja pozwala na podzielenie się osobistymi refleksjami oraz zabawnymi faktami o uniwersum.
+
+Ciekawostki („fun facts”): Zawiera interesujące informacje o stworzeniu uniwersum, np. jak powstała gra, kto ją stworzył, jakie niespodzianki twórcy ukryli w grze (Easter Eggs), czy jakie niespodzianki czekają na widzów w filmie.
+
+Opinia: Podziel się swoimi przemyśleniami na temat uniwersum. Co Cię zaskoczyło? Co najbardziej Ci się podobało? Może wybrałeś ten temat, ponieważ ma dla Ciebie emocjonalne znaczenie? Możesz również dodać sekcję „plusy i minusy” lub „polecam / nie polecam”, aby wyrazić swoją opinię na temat gry/filmu/serialu.
+
+Stopka (Footer)
+Stopka musi zawierać kilka obowiązkowych elementów:
+
+Twoje imię i nazwisko (lub pseudonim): To ważne, by odwiedzający stronę wiedzieli, kto jest autorem projektu.
+
+Data utworzenia projektu: Wskaż, kiedy zakończyłeś pracę nad projektem.
+
+Link do źródeł: Jeśli używałeś grafik, zdjęć lub filmów, które nie są Twojego autorstwa, koniecznie podaj linki do ich źródeł.
+
+Link do portfolio lub GitHub: Jeśli posiadasz konto na GitHubie lub portfolio, zamieść odpowiedni link.
+
+Krótka informacja: „Strona stworzona w ramach projektu końcowego kursu [nazwa kursu].”
+
+Wizualne Elementy
+Zdjęcia i grafiki: Upewnij się, że zdjęcia są odpowiednio dobrane pod kątem tematyki i estetyki. Powinny być wysokiej jakości, dobrze skomponowane i pasować do kolorystyki strony.
+
+Ikony i czcionki: Wybierz ikony i czcionki, które współgrają z tematem. Możesz skorzystać z narzędzi takich jak FontAwesome lub Google Fonts. Staraj się, by kolory były spójne z wybraną paletą.
+
+Favicon: Favicon to mała ikonka, która pojawi się w zakładce przeglądarki. Może to być np. logo Twojego uniwersum lub inny charakterystyczny element.
+
+Dodatkowe Wskazówki
+Planowanie: Zanim zaczniesz tworzyć kod, zaplanuj, jak ma wyglądać każda sekcja. Możesz stworzyć makietę strony lub narysować schemat na papierze.
+
+Testowanie: Testuj stronę na różnych urządzeniach, by upewnić się, że jest w pełni responsywna. Zadbaj o to, by strona wyglądała dobrze na komputerze, tablecie i telefonie.
+
+Dodatkowe funkcje: Jeśli chcesz dodać coś unikalnego, jak np. quiz, animacje czy interaktywne elementy, śmiało to zrób. Dodatkowe elementy sprawią, że Twoja strona będzie bardziej atrakcyjna i wyróżniająca się.
+
+Po zakończeniu projektu, upewnij się, że wszystko działa poprawnie, a strona jest odpowiednio opublikowana (np. na GitHub Pages lub Netlify), a linki są aktywne.
+
+
+
+
+
+
+

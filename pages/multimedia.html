@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia - Struktury Minecraft</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/pages/multimedia.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">Struktury Minecraft</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Strona Główna</a></li>
+                <li><a href="world.html">Generacja Struktur</a></li>
+                <li><a href="characters.html">Rodzaje Struktur</a></li>
+                <li><a href="multimedia.html" class="active">Multimedia</a></li>
+                <li><a href="trivia.html">Ciekawostki i Opinie</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Multimedia</h1>
+                <p>Galeria zdjęć i materiałów filmowych prezentujących struktury w Minecraft.</p>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <h2>Odkrywanie struktur w Minecraft</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pOgxHpaqO24?si=PA4eAAXJzGuQqVH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video-description">
+                <p>Film prezentuje proces odkrywania różnych struktur w Minecraft. Możesz zobaczyć, jak wygląda eksploracja świata gry i odnajdywanie naturalnie generowanych budowli. Zwróć uwagę na różnorodność struktur i wyjątkowy charakter każdej z nich.</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Galeria struktur</h2>
+            <div class="gallery-intro">
+                <p>Poniżej znajduje się kolekcja zdjęć przedstawiających najbardziej imponujące struktury w Minecraft. Kliknij na dowolne zdjęcie, aby zobaczyć je w powiększeniu.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../assets/images/gallery1-placeholder.jpg" alt="Wioska na równinie">
+                    <div class="image-caption">Widok na wioskę na równinie. Zwróć uwagę na charakterystyczną architekturę budynków i układ ulic.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/gallery2-placeholder.jpg" alt="Forteca Netheru">
+                    <div class="image-caption">Imponująca forteca Netheru z mostem przebiegającym nad jeziorem lawy.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/gallery3-placeholder.jpg" alt="Świątynia pustyni">
+                    <div class="image-caption">Świątynia pustyni częściowo zagrzebana w piasku. Widoczna jest charakterystyczna wieża centralna.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/gallery4-placeholder.jpg" alt="Podwodne ruiny">
+                    <div class="image-caption">Podwodne ruiny znajdujące się na dnie oceanu, zawierające cenne zasoby i skarby.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/gallery5-placeholder.jpg" alt="Leśny dwór">
+                    <div class="image-caption">Tajemniczy leśny dwór ukryty wśród drzew i roślinności.</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../assets/images/gallery6-placeholder.jpg" alt="Twierdza">
+                    <div class="image-caption">Podziemna twierdza z portalem do Endu, kluczowym elementem progresji w grze.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slideshow-section">
+            <h2>Ewolucja struktur w aktualizacjach</h2>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="../assets/images/slide1-placeholder.jpg" alt="Struktury w wersji Alpha">
+                    <div class="slide-caption">Pierwsze struktury w Minecraft pojawiły się w wersji Beta 1.8 (2011 rok).</div>
+                </div>
+                <div class="slide fade">
+                    <img src="../assets/images/slide2-placeholder.jpg" alt="Aktualizacja wioski">
+                    <div class="slide-caption">Ewolucja wiosek w aktualizacji Village & Pillage (1.14) z 2019 roku.</div>
+                </div>
+                <div class="slide fade">
+                    <img src="../assets/images/slide3-placeholder.jpg" alt="Nowoczesne struktury">
+                    <div class="slide-caption">Najnowsze struktury dodane w aktualizacji Caves & Cliffs (1.17 i 1.18).</div>
+                </div>
+
+                <!-- Przyciski nawigacyjne -->
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+            <div class="slideshow-dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>Autor: Twoje Imię i Nazwisko</p>
+                <p>Data utworzenia: Kwiecień 2025</p>
+            </div>
+            <div class="footer-links">
+                <p>Strona stworzona w ramach projektu końcowego kursu.</p>
+                <p>
+                    <a href="https://github.com/twój-profil" target="_blank">GitHub</a> |
+                    <a href="#" target="_blank">Portfolio</a>
+                </p>
+            </div>
+            <div class="footer-sources">
+                <p>Źródła:</p>
+                <ul>
+                    <li><a href="https://minecraft.fandom.com/wiki/Generated_structures" target="_blank">Minecraft Wiki</a></li>
+                    <li><a href="https://www.minecraft.net" target="_blank">Oficjalna strona Minecraft</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/components/slideshow.js"></script>
+</body>
+</html> 

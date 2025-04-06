@@ -1,0 +1,206 @@
+/* 
+* Characters page specific styles
+*/
+
+/* Hero section for characters page */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/characters-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Characters intro section */
+.characters-intro {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Dimension titles for structure categories */
+.dimension-title {
+    max-width: 1200px;
+    margin: 40px auto 20px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.dimension-title::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #e74c3c;
+}
+
+/* Character cards grid */
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+/* Character card with flip effect */
+.character-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.character-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease;
+}
+
+.card-front {
+    background-color: #f5f5f5;
+}
+
+.card-front img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-front h3 {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.card-back {
+    background-color: #2c3e50;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.card-back h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.character-details h4 {
+    color: #e74c3c;
+    margin: 15px 0 5px;
+    font-size: 1.2rem;
+}
+
+.character-details p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.character-card:hover .card-front {
+    transform: rotateY(-180deg);
+}
+
+.character-card:hover .card-back {
+    transform: rotateY(0);
+}
+
+/* Relationships section */
+.relationships {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.relationships h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.relationships p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.relationships-diagram {
+    background-color: #e8f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #3498db;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .characters-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .character-card {
+        height: 350px;
+    }
+    
+    .dimension-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .characters-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dimension-title {
+        font-size: 1.5rem;
+    }
+} 

@@ -1,0 +1,113 @@
+/* 
+* World page specific styles
+*/
+
+/* Hero section for world page */
+.hero {
+    background-image: linear-gradient(rgba(11, 19, 43, 0.7), rgba(11, 19, 43, 0.7)), url('../../assets/images/world-hero.jpg');
+}
+
+/* World description section */
+.world-description {
+    padding: var(--spacing-lg) var(--spacing-md);
+    background-color: white;
+}
+
+.world-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    align-items: center;
+}
+
+.world-image img {
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    width: 100%;
+}
+
+/* Inhabitants section */
+.inhabitants {
+    padding: var(--spacing-lg) var(--spacing-md);
+    background-color: var(--light-color);
+}
+
+.inhabitants-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    align-items: center;
+}
+
+.inhabitants-image img {
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    width: 100%;
+}
+
+/* Interesting facts section */
+.interesting-facts {
+    padding: var(--spacing-lg) var(--spacing-md);
+    background-color: white;
+}
+
+.interesting-facts h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.facts-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.facts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.facts-list li {
+    background-color: var(--light-color);
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facts-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.facts-list h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .world-content, .inhabitants-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .inhabitants-content {
+        grid-template-areas: 
+            "text"
+            "image";
+    }
+    
+    .inhabitants-image {
+        grid-area: image;
+    }
+    
+    .inhabitants-text {
+        grid-area: text;
+    }
+} 
